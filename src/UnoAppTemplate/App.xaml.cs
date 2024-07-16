@@ -3,17 +3,14 @@ using Uno.Resizetizer;
 namespace UnoAppTemplate;
 public partial class App : Application
 {
-    /// <summary>
-    /// Initializes the singleton application object. This is the first line of authored code
-    /// executed, and as such is the logical equivalent of main() or WinMain().
-    /// </summary>
+    protected Window? MainWindow { get; private set; }
+    
+    protected IHost? Host { get; private set; }
+
     public App()
     {
         this.InitializeComponent();
     }
-
-    protected Window? MainWindow { get; private set; }
-    protected IHost? Host { get; private set; }
 
     protected override void OnLaunched(LaunchActivatedEventArgs args)
     {

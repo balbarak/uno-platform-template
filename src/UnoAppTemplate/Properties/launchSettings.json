@@ -16,6 +16,6 @@
     "UnoAppTemplate (WinAppSDK Packaged)": {
       "commandName": "MsixPackage",
       "compatibleTargetFramework": "windows"
-    },
+    }
   }
 }
