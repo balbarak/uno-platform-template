@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnoAppTemplate", "UnoAppTemplate\UnoAppTemplate.csproj", "{13176AD8-4D76-4462-8849-570DC08A54EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2A67B49-13BC-45C9-BE04-5E469C82CC6C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13176AD8-4D76-4462-8849-570DC08A54EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13176AD8-4D76-4462-8849-570DC08A54EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13176AD8-4D76-4462-8849-570DC08A54EC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{13176AD8-4D76-4462-8849-570DC08A54EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13176AD8-4D76-4462-8849-570DC08A54EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13176AD8-4D76-4462-8849-570DC08A54EC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98914626-0316-4B8D-8537-DB569B7062B3}
+	EndGlobalSection
+EndGlobal

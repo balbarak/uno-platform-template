@@ -1,0 +1,10 @@
+﻿{
+    "author": "balbarak",
+    "name": "Uno Platform App Template v1.0.0",
+    "tags": {
+      "language": "C#"
+    },
+    "identity": "UnoAppTemplate.Mobile.One",
+    "shortName": "unoapptemplate",
+    "sourceName": "UnoAppTemplate"
+  }
